@@ -1,32 +1,24 @@
-# Personal SOC with Custom SIEM and Threat Intelligence
+# 🛡️ Custom SIEM-Based SOC for Lab Monitoring
 
-## Overview
-This project demonstrates the deployment of a personal Security Operations Center (SOC) using a custom-configured SIEM. It monitors all devices in a personal cybersecurity lab and integrates threat intelligence feeds for enhanced detection and alerting.
+This project showcases a self-built Security Operations Center (SOC) using a custom Security Information and Event Management (SIEM) solution to monitor personal lab devices. It includes real-time log ingestion, alert generation, and integration with threat intelligence feeds for enhanced detection and response.
 
-## Features
-- Log collection and normalization
-- Real-time alert generation
-- Custom rule sets
-- Threat intelligence integration (e.g., AlienVault OTX, AbuseIPDB)
+## 🚀 Project Overview
 
-## Tools & Technologies
-- SIEM: [e.g., Wazuh, Splunk, ELK stack]
-- Threat Intel: [e.g., MISP, Open Threat Exchange]
-- Lab Environment: VirtualBox / VMware / Bare metal
+- Designed and deployed a **custom SIEM** for centralized monitoring of lab devices
+- Ingested logs from multiple sources (endpoints, routers, etc.)
+- Created **custom alerting rules** to detect suspicious behavior
+- Integrated **threat intelligence feeds** to enrich data and improve response accuracy
+- Demonstrated core SOC operations: log analysis, alert triage, and threat hunting
 
-## Architecture Diagram
-![SOC Architecture](images/soc-architecture.png)
+## 🔧 Tools & Technologies
 
-## Screenshots
-### SIEM Dashboard
-![Dashboard](images/dashboard.png)
+- Custom-built SIEM (e.g., ELK Stack, Graylog, Wazuh, or similar)
+- Syslog/Winlogbeat/OSQuery (log shippers)
+- Threat Intelligence Feeds (AlienVault OTX, AbuseIPDB, etc.)
+- Linux/Windows lab devices
+- Custom detection rules & alerting scripts
 
-### Alert Example
-![Alert](images/alert-example.png)
+## 📂 Project Structure
 
-## Getting Started
-Instructions to replicate the lab (optional for public repos).
 
-## Author
-Your Name
 
